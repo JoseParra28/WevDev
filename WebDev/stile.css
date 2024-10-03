@@ -2,7 +2,8 @@ body {
     font-family: 'Courier New', Courier, monospace;
     
 }
-ul {
+.ul {
     display: flex;
+    color:red
     
 }
