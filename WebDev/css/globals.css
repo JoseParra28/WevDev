@@ -12,3 +12,9 @@ body {
     padding: 0%;
     background-color: whitesmoke;
 }
+.h1-class{
+    color: rebeccapurple
+}
+span {
+    color: black;
+}
