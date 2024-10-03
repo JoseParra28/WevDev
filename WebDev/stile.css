@@ -2,12 +2,13 @@ body {
     font-family: 'Courier New', Courier, monospace;
     
 }
+nav {
+    display: flex;
+    position: relative;
+}
 .ul {
     display: flex;
     text-decoration: none;
-}
-nav {
-    display: flex;
 }
 li, a{
     text-decoration: none;
@@ -16,7 +17,6 @@ li, a{
     font-size: 120%;
 }
 
-section {
-    margin: 0%;
-    text-align: center;
-}
+
+
+
