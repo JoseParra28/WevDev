@@ -4,6 +4,19 @@ body {
 }
 .ul {
     display: flex;
-    color:red
-    
+    text-decoration: none;
+}
+nav {
+    display: flex;
+}
+li, a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120%;
+}
+
+section {
+    margin: 0%;
+    text-align: center;
 }
