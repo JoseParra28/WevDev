@@ -1,20 +1,73 @@
-html {
-    font-size: 100%;
-    box-sizing: border-box;
+:root {
+    --font-color:#181C14;
+    --background-color: #ECDFCC;
+    --containers:#3C3D37;
+    --buttons:#697565;
+
+
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
-}
-body {
-    line-height: 1.3;
+* {
     margin: 0%;
     padding: 0%;
-    background-color: whitesmoke;
 }
-.h1-class{
-    color: rebeccapurple
+body{
+    min-height: 100vh;
+    background-image: url(/WebDev/media/opening-laptop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-span {
-    color: black;
+
+nav {
+    background-color: var(--containers);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li {
+    height: 50px;
+}
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color:  var(--background-color);
+}
+nav a:hover {
+    background-color: var(--buttons);
+}
+nav li:first-child {
+    margin-right: auto;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    height: 250px;
+    z-index: 999;
+    background-color: var(--font-color);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li {
+    width: 100%;
+}
+.sidebar a {
+    width: 100%;
+    color: var(--buttons);
 }
