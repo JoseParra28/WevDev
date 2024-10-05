@@ -1,6 +1,6 @@
 :root {
     --font-color:#181C14;
-    --background-color: #ECDFCC;
+    --background-color: #f1ede6;
     --containers:#3C3D37;
     --buttons:#697565;
 
@@ -13,7 +13,8 @@
 }
 body{
     min-height: 100vh;
-    background-image: url(/WebDev/media/opening-laptop.jpg);
+    /* background-image: url(/WebDev/media/opening-laptop.jpg); */
+    background-color: var(--background-color);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -40,6 +41,8 @@ nav a {
     text-decoration: none;
     display: flex;
     align-items: center;
+    font-size: 1.3rem;
+    font-weight: 100;
     color:  var(--background-color);
 }
 nav a:hover {
@@ -48,8 +51,9 @@ nav a:hover {
 nav li:first-child {
     margin-right: auto;
 }
+/* Hamburget menu */
 
-.sidebar {
+/* .sidebar {
     position: fixed;
     top: 0;
     right: 0;
@@ -70,4 +74,4 @@ nav li:first-child {
 .sidebar a {
     width: 100%;
     color: var(--buttons);
-}
+} */
