@@ -8,7 +8,7 @@
     <title>WebDev</title>
 </head>
 <body>
-<nav id="destop-nav">  
+<nav id="destop-nav" class="hideonlaptop">  
     <ul class="sidebar">
         <li onclick="hideSideBar()"><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
         <li><a href="#about">About</a></li>
@@ -18,17 +18,21 @@
     </ul> 
     <ul class="nav-links">
         <li><a href="#">WebDev</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li onclick="showSideBar()"><a href="#contact"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        <li class="hideonmobile"><a href="#about">About</a></li>
+        <li class="hideonmobile"><a href="#experience">Experience</a></li>
+        <li class="hideonmobile"><a href="#projects">Projects</a></li>
+        <li class="hideonmobile"><a href="#contact">Contact</a></li>
+        <li class="menubutton" onclick="showSideBar()"><a href="#contact"> <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
 
     </ul>
 </nav>
 
 <section>
-    
+    <div class="test">
+        <div class="img-1">           
+        </div>
+        <div class="img-2"></div>
+    </div>
 
 </section>
 

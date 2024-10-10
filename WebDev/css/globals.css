@@ -10,7 +10,7 @@
 }
 body {
     min-height: 100vh;
-    background-image: url(/WevDev/WebDev/media/opening-laptop.jpg);
+    /* background-image: url(/WevDev/WebDev/media/opening-laptop.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -72,11 +72,21 @@ nav li:first-child {
 
 }
 .sidebar li {
-    width: 100%;
-    
+    width: 100%;  
 }
 .sidebar a {
     width: 100%;
+}
+.menubutton {
+    display: none;
+}
+@media (max-width: 800px) {
+    .hideonmobile {
+        display: none;
+    }  
+    .menubutton {
+        display: block;
+    }  
 }
 
 
